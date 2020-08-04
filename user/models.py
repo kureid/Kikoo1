@@ -1,3 +1,8 @@
 from django.db import models
+from django.urils import timezone
+from django.contrib.auth.models import User
 
-# Create your models here.
+
+class Post(models.Model):
+    content = models.TextField()
+    author = 
